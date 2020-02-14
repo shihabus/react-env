@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -10,6 +10,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>NODE_ENV: {process.env.NODE_ENV}</p>
+        <p>.env REACT_APP_NAME: {process.env.REACT_APP_NAME}</p>
+        <p>.env.development REACT_APP_WAR: {process.env.REACT_APP_WAR}</p>
         <a
           className="App-link"
           href="https://reactjs.org"
